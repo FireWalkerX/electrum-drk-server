@@ -1,33 +1,33 @@
 from setuptools import setup
 
 setup(
-    name="electrum-ixc-server",
+    name="electrum-drk-server",
     version="0.9",
-    scripts=['run_electrum_ixc_server','electrum-ixc-server'],
+    scripts=['run_electrum_drk_server','electrum-drk-server'],
     install_requires=['plyvel','jsonrpclib', 'irc'],
     package_dir={
-        'electrumixcserver':'src'
+        'electrumdrkserver':'src'
         },
     py_modules=[
-        'electrumixcserver.__init__',
-        'electrumixcserver.utils',
-        'electrumixcserver.storage',
-        'electrumixcserver.deserialize',
-        'electrumixcserver.networks',
-        'electrumixcserver.blockchain_processor',
-        'electrumixcserver.server_processor',
-        'electrumixcserver.processor',
-        'electrumixcserver.version',
-        'electrumixcserver.ircthread',
-        'electrumixcserver.stratum_tcp',
-        'electrumixcserver.stratum_http'
+        'electrumdrkserver.__init__',
+        'electrumdrkserver.utils',
+        'electrumdrkserver.storage',
+        'electrumdrkserver.deserialize',
+        'electrumdrkserver.networks',
+        'electrumdrkserver.blockchain_processor',
+        'electrumdrkserver.server_processor',
+        'electrumdrkserver.processor',
+        'electrumdrkserver.version',
+        'electrumdrkserver.ircthread',
+        'electrumdrkserver.stratum_tcp',
+        'electrumdrkserver.stratum_http'
     ],
-    description="Ixcoin Electrum Server",
+    description="Darkcoin Electrum Server",
     author="Thomas Voegtlin",
     author_email="thomasv1@gmx.de",
     license="GNU Affero GPLv3",
-    url="https://github.com/ixcoin123/electrum-server/",
-    long_description="""Server for the Electrum Lightweight Ixcoin Wallet"""
+    url="https://github.com/testalt/electrum-drk-server/",
+    long_description="""Server for the Electrum Lightweight Darkcoin Wallet"""
 )
 
 

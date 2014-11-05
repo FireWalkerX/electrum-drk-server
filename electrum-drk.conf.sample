@@ -2,10 +2,10 @@
 # username for running the daemon
 username = 
 # hostname. set it to a FQDN in order to be reached from outside
-host = localhost
+host = electrum-alt.org
 # ports
-electrum_rpc_port = 8000
-stratum_tcp_port = 50001
+electrum_rpc_port = 8100
+stratum_tcp_port = 50100
 #stratum_tcp_ssl_port = 50002
 #report_host = 
 #report_stratum_tcp_port = 50001
@@ -28,7 +28,7 @@ pruning_limit = 100
 
 [bitcoind]
 bitcoind_host = localhost
-bitcoind_port = 8338
-# user and password from ixcoin.conf
+bitcoind_port = 18895
+# user and password from darkcoin.conf
 bitcoind_user = 
 bitcoind_password = 

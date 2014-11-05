@@ -11,9 +11,9 @@ params = {
         'script_address': 196,
         'genesis_hash': '000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943'
     },
-    'ixcoin_main': {
-        'pubkey_address': 138,
+    'darkcoin_main': {
+        'pubkey_address': 76,
         'script_address': 5,
-        'genesis_hash': '0000000001534ef8893b025b9c1da67250285e35c9f76cae36a4904fdf72c591'
+        'genesis_hash': '00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6'
     }
 }
